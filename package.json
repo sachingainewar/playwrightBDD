@@ -1,0 +1,23 @@
+{
+  "name": "TestAutomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "testCU": "cucumber-js --format json:cucumber-report.json && node reporter.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.4"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@cucumber/pretty-formatter": "^1.0.1",
+    "cucumber-html-reporter": "^6.0.0",
+    "playwright": "^1.50.1"
+  }
+}
