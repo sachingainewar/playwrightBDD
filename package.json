@@ -11,13 +11,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@cucumber/cucumber": "11.2.0",
     "@playwright/test": "^1.50.1",
     "@types/node": "^22.13.4"
   },
   "dependencies": {
-    "@cucumber/cucumber": "^11.2.0",
-    "@cucumber/pretty-formatter": "^1.0.1",
     "cucumber-html-reporter": "^6.0.0",
-    "playwright": "^1.50.1"
+    "js-beautify": "^1.15.3",
+    "playwright": "^1.50.1",
+    "pretty": "^2.0.0"
   }
 }
